@@ -120,7 +120,7 @@ export default function Footer() {
                 className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl btn-whatsapp text-xs sm:text-sm font-bold shadow-whatsapp-glow"
               >
                 <MessageCircle className="w-4 h-4 fill-white" />
-                <span>دعم العملاء: +966 50 000 0000</span>
+                <span>دعم العملاء</span>
               </a>
             </div>
           </div>
