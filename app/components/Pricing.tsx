@@ -110,7 +110,7 @@ export default function Pricing() {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-stretch max-w-6xl mx-auto">
           {tiers.map((tier) => {
             const isFeatured = tier.featured;
-            const waLink = `https://wa.me/212718404459text=${encodeURIComponent(
+            const waLink = `https://wa.me/212718404459?text=${encodeURIComponent(
               tier.whatsappMsg
             )}`;
 

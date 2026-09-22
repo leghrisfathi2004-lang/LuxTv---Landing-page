@@ -15,7 +15,7 @@ import {
 
 export default function Hero() {
   const whatsappUrl =
-  "https://wa.me/212718404459text=" +
+  "https://wa.me/212718404459?text=" +
   encodeURIComponent("السلام عليكم، أريد الاستفسار عن اشتراك LuxTV");
 
   return (
