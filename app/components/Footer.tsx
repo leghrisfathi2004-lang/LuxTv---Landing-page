@@ -5,7 +5,7 @@ import { Crown, MessageCircle, ShieldCheck, Heart } from "lucide-react";
 
 export default function Footer() {
   const whatsappUrl =
-    "https://wa.me/966500000000?text=" +
+    "https://wa.me/212718404459?text=" +
     encodeURIComponent("السلام عليكم، أود الاستفسار عن اشتراك LuxTV");
 
   return (
