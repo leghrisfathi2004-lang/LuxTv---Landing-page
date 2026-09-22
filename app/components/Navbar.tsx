@@ -22,7 +22,6 @@ export default function Navbar() {
 
   const navLinks = [
     { name: "الرئيسية", href: "#hero" },
-    { name: "لماذا LuxTV", href: "#features" },
     { name: "الأجهزة المدعومة", href: "#devices" },
     { name: "الباقات والعروض", href: "#pricing" },
     { name: "تجارب المشتركين", href: "#testimonials" },
@@ -30,7 +29,7 @@ export default function Navbar() {
   ];
 
   const whatsappUrl =
-    "https://wa.me/966500000000?text=" +
+    "https://wa.me/212718404459text=" +
     encodeURIComponent("السلام عليكم، أريد الاستفسار عن اشتراك LuxTV الملكي");
 
   return (

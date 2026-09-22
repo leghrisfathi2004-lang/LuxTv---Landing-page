@@ -17,14 +17,14 @@ export default function Pricing() {
       id: "3-months",
       name: "باقة 3 أشهر",
       subtitle: "الباقة الأساسية للتجربة والمتابعة",
-      price: "99",
+      price: "49",
       period: "لكل 3 أشهر",
       savings: null,
       featured: false,
       popular: false,
       badge: "مرونة كاملة",
       features: [
-        "أكثر من 10,000 قناة بث مباشر عالية الدقة",
+        "أكثر من 14,000 قناة بث مباشر عالية الدقة",
         "مكتبة ضخمة متجددة من أحدث الأفلام والمسلسلات",
         "تغطية شاملة لجميع البطولات والدوريات الكبرى",
         "باقات مخصصة تناسب كافة أفراد العائلة والتحكم الكامل",
@@ -40,14 +40,14 @@ export default function Pricing() {
       id: "12-months",
       name: "باقة 12 شهر (الملكية)",
       subtitle: "الخيار الأكثر طلباً وتوفيراً في السعودية",
-      price: "249",
+      price: "99",
       period: "لكل سنة كاملة (12 شهر)",
       savings: "وفر أكثر من 50% مع الباقة الملكية",
       featured: true,
       popular: true,
       badge: "الأكثر طلباً ومبيعاً 👑",
       features: [
-        "أكثر من 10,000 قناة بث مباشر بدقة 4K و Ultra HD فائقة النقاء",
+        "أكثر من 14,000 قناة بث مباشر بدقة 4K و Ultra HD فائقة النقاء",
         "مكتبة الأفلام والمسلسلات الكاملة مع تحديث يومي للأفلام الجديدة",
         "تغطية البث المباشر الكامل لكافة البطولات العالمية والمحلية",
         "سيرفرات VIP مخصصة مع نظام Anti-Freeze فائق الثبات",
@@ -61,17 +61,17 @@ export default function Pricing() {
       btnText: "احصل على الباقة الملكية - 249 ر.س",
     },
     {
-      id: "6-months",
-      name: "باقة 6 أشهر",
+      id: "24-months",
+      name: "باقة 24 أشهر",
       subtitle: "الباقة المتوازنة لموسم رياضي وترفيهي مميز",
-      price: "159",
-      period: "لكل نصف سنة (6 أشهر)",
+      price: "169",
+      period: "لكل سنتين (6 أشهر)",
       savings: "وفر 20% مقارنة بالاشتراك الدوري",
       featured: false,
       popular: false,
       badge: "قيمة ممتازة",
       features: [
-        "أكثر من 10,000 قناة بث مباشر عالية الدقة",
+        "أكثر من 14,000 قناة بث مباشر عالية الدقة",
         "مكتبة ضخمة متجددة من أحدث الأفلام والمسلسلات",
         "تغطية شاملة لجميع البطولات والدوريات الكبرى",
         "باقات مخصصة تناسب كافة أفراد العائلة والتحكم الكامل",
@@ -110,7 +110,7 @@ export default function Pricing() {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-stretch max-w-6xl mx-auto">
           {tiers.map((tier) => {
             const isFeatured = tier.featured;
-            const waLink = `https://wa.me/966500000000?text=${encodeURIComponent(
+            const waLink = `https://wa.me/212718404459text=${encodeURIComponent(
               tier.whatsappMsg
             )}`;
 

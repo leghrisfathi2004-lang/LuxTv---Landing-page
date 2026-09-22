@@ -22,9 +22,6 @@ export default function Home() {
       {/* Live Performance & Statistics Banner */}
       <LiveStatsBanner />
 
-      {/* Trust & Value Proposition (لماذا LuxTV) 
-      <Features />*/}
-
       {/* Device Compatibility Ecosystem */}
       <Devices />
 

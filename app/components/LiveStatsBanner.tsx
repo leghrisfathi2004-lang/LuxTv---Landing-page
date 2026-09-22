@@ -5,13 +5,13 @@ export default function LiveStatsBanner() {
   const stats = [
     {
       icon: Tv,
-      number: "+10,000",
+      number: "+14,000",
       label: "قناة بث مباشر بجودة 4K & FHD",
       subtext: "تغطية شاملة لكل الفعاليات الرياضية والترفيهية",
     },
     {
       icon: Film,
-      number: "+35,000",
+      number: "+65,000",
       label: "فيلم ومسلسل بمكتبة سينمائية متجددة",
       subtext: "تحديثات يومية وأعلى جودة ترجمة وصورة",
     },

@@ -21,7 +21,7 @@ export default function StickyMobileCTA() {
   }, []);
 
   const whatsappUrl =
-    "https://wa.me/966500000000?text=" +
+    "https://wa.me/212718404459text=" +
     encodeURIComponent("السلام عليكم، أريد الاستفسار عن اشتراك LuxTV الملكي");
 
   if (!isVisible) return null;
