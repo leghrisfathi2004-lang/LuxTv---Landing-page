@@ -95,6 +95,7 @@ export default function Footer() {
             <p className="text-xs text-silver-400 leading-relaxed">
               طرق دفع آمنة ومعتمدة في السعودية مع تأكيد فوري عبر الواتساب:
             </p>
+            <div className="flex flex-wrap gap-2 justify-end">
               <span className="px-3 py-1.5 rounded-lg bg-white/5 border border-white/10 text-xs font-bold text-silver-200">
                 🏦 تحويل بنكي مباشر
               </span>
