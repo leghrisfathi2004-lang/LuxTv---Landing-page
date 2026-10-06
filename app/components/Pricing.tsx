@@ -34,7 +34,7 @@ export default function Pricing() {
       ],
       whatsappMsg:
         "السلام عليكم، أريد الاشتراك في باقة LuxTV (3 أشهر) بسعر 99 ر.س",
-      btnText: "اشترك الآن - 99 ر.س",
+      btnText: "اشترك الآن - 49 ر.س",
     },
     {
       id: "12-months",
@@ -58,7 +58,7 @@ export default function Pricing() {
       ],
       whatsappMsg:
         "السلام عليكم، أريد الاشتراك في باقة LuxTV الملكية (12 شهر) بسعر 249 ر.س",
-      btnText: "احصل على الباقة الملكية - 249 ر.س",
+      btnText: "احصل على الباقة الملكية - 99 ر.س",
     },
     {
       id: "24-months",
@@ -81,7 +81,7 @@ export default function Pricing() {
       ],
       whatsappMsg:
         "السلام عليكم، أريد الاشتراك في باقة LuxTV (6 أشهر) بسعر 159 ر.س",
-      btnText: "اشترك الآن - 159 ر.س",
+      btnText: "اشترك الآن - 169 ر.س",
     },
   ];
 
